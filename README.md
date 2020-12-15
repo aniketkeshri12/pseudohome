@@ -1,2 +1,2 @@
-# pseudohome
+# Pseudohome
 Created with CodeSandbox
