@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&family=Syne+Mono&display=swap");
+
+* {
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  background-color: #fff !important;
+  padding: 0.5rem 0rem !important;
+
+}
+
+.myy-3 {
+  font-size: 1.2rem;
+  margin-top: 1px;
+}
+.navbar-brand {
+  font-size: 2.4rem !important;
+ 
+  font-weight: bold;
+  color: black;
+}
+
+.brand-name {
+  font-size: 1.9rem !important;
+  color: #368888 !important;
+  /* margin-left: -88px; */
+  margin-top: 1px;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565656;
+}
+
+.googleBtn {
+  width: 225px;
+  margin: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.googleBtn img {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin-top: 4px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+  font-size: 2.3rem;
+
+}
+
+
+
+.btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 3px 15px;
+  border-radius: 50px;
+  border: 2px solid #368888;
+  color: #368888;
+  text-decoration: none !important;
+  transition: 0.5s;
+  font-family: "Merriweather", serif !important;
+}
+
+.btn-get-started:hover {
+  color: #fff;
+  background-color: #368888;
+}
+
+.header-img {
+  text-align: right;
+}
+
+.img-fluid-animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both !important;
+  width: 65%;
+  height: 100%;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: trnslateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: trnslateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.main {
+  margin-top: 130px;
+}
+
+.gyy-4 {
+  margin-top: 20px !important;
+  border: 2px solid #d2d2d2 !important;
+
+  
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff !important;
+  
+
+  border-radius: 11px !important;
+  box-shadow: 15px 16px 16px -10px rgba(0, 0, 0, 0.1) !important;
+  float: left !important;
+}
+
+.gyy-4:hover {
+  box-shadow: 0px 30px 18px -8px rgb(0, 0, 0, 0.1) !important;
+  transform: scale(1.05, 1.05) !important;
+}
+.buttonS {
+  padding: 10px 9px !important;
+  /* font-family: "Bree Serif", serif; */
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  letter-spacing: 2px !important;
+  font-weight: 500 !important;
+  color: #368888 !important;
+  background-color: white !important;
+  outline: none !important;
+  border: 1px solid #368888 !important;
+  cursor: pointer !important;
+  border-radius: 10px !important;
+  font-family: "Merriweather", serif !important;
+}
+
+.buttonS:hover {
+  box-shadow: 0px 13px 10px -7px rgb(0, 0, 0, 0.1) !important;
+  transform: scale(1.05, 1.05) !important;
+  background-color: #368888 !important;
+  color: white !important;
+}
+
+.serbuttons {
+  padding: 10px 9px !important;
+  font-family: "Merriweather", serif !important;
+  
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  letter-spacing: 2px !important;
+  font-weight: 500 !important;
+  color: black !important;
+  background-color: #368888 !important;
+  outline: none !important;
+  border: 1px #368888 !important;
+  cursor: pointer !important;
+  border-radius: 7px !important;
+}
+
+.serbuttons:hover {
+  box-shadow: 0px 13px 10px -7px rgb(0, 0, 0, 0.1) !important;
+  /* transform: scale(1.05, 1.05) !important; */
+  background-color: #9c2222 !important;
+  color: white !important;
+}
+
+
+
+.card_img {
+  width: 100% !important;
+  height: 235px !important;
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+}
+.body {
+  background-color: #d2d2d2 !important;
+}
+
+.cardtextCOL {
+  background-color: #d2d2d2;
+}
+
+.dropdownn {
+  background-color: #d2d2d2 !important;
+  color: black !important;
+}
+
+.dropdownn_ele:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Style all font awesome icons */
+.fa {
+  border: 0px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(228, 36, 68);
+  color: white;
+}
+
+.fa {
+  margin-left: 15px;
+  margin-top: 100px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.fa-linkedin {
+  background: #3978a8;
+  color: white;
+}
+
+.fa-youtube {
+  background: #b61111;
+  color: white;
+}
+
+.fa-github {
+  background: #272424;
+  color: white;
+}
+
+.fa-envelope {
+  background: rgb(221, 21, 21);
+  color: white;
+}
+.fa-whatsapp {
+  background: rgb(37, 219, 107);
+  color: white;
+}
+
+.fa-google-plus {
+  background: rgb(216, 64, 37);
+  color: white;
+}
+.fa-stack-overflow {
+  background: rgb(243, 68, 37);
+  color: white;
+}
+
+.fa-reddit-alien {
+  background: rgb(243, 68, 37);
+  color: white;
+}
+
+.fa-pinterest {
+  background: rgb(219, 24, 24);
+  color: white;
+}
+
+
+
+.srchh {
+  padding: 2px 5px !important;
+  padding-left: 7px !important;
+}
+
+.srch {
+  padding-left: 7px !important;
+  padding: 3px 5px !important;
+  margin-right: 7px !important;
+  background-color: #277942 !important;
+  color: white !important;
+  font-size: 1.2rem !important;
+  border: 2px !important;
+
+  
+}
+.srch:hover {
+  background-color: #368888 !important;
+
+}
+
+.bcol {
+  background-color: #f8f9fa !important;
+}
+
+.bodi {
+  height: 100% !important;
+}
+
+.icon {
+  height: 105px !important;
+  width: 105px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  
+}
+
+.iconn {
+  
+  margin-left: -50px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: -15px !important;
+  margin-bottom: -16px !important;
+}
+
+.features {
+  margin-right: 180px !important;
+}
+.log {
+  color: white !important;
+  background-color: rgb(170, 32, 32) !important;
+  border: 2px !important;
+}
+
+.bodiDiv {
+  width: 100%;
+  height: 100%;
+ 
+  background-color: #368888 !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin-top: -8px !important;
+  margin-bottom: -16px !important;
+}
+
+.bodiDiv2 {
+  color: #69707a !important;
+}
+
+.cardd {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff !important;
+  background-clip: border-box;
+  border: 1px solid rgba(33, 40, 50, 0.125);
+  border-radius: 0.35rem;
+
+}
+
+.logImg {
+  height: 8rem;
+  width: 8rem;
+ 
+}
+
+.widthLo {
+  max-width: 67% !important;
+}
+
+.fa-google {
+  background: rgb(218, 25, 25);
+  color: white;
+}
+
+.social {
+  text-decoration: none !important;
+}
+
+.social :hover {
+  color: black;
+  text-decoration: none !important;
+}
+
+.logSocial {
+  margin-top: -100px !important;
+}
+
+.fsizeLogin {
+  font-size: 1.2rem !important;
+}
+
+.footercolor {
+  background-color: #368888;
+  color: black !important;
+  margin-top: 15px !important;
+}
+
+.colh {
+  color: black !important;
+}
+
+.footer {
+  background-color: #206b6b;
+}
+
+.collapse-content .fa.fa-heart:hover {
+  color: #f44336 !important;
+}
+.collapse-content .fa.fa-share-alt:hover {
+  color: #0d47a1 !important;
+}
+
+.card_more {
+  margin-top: 28px;
+}
+
+.more_buttons {
+  padding: 10px 9px !important;
+  font-family: "Merriweather", serif !important;
+  /* font-family: "Bree Serif", serif; */
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  letter-spacing: 2px !important;
+  font-weight: 500 !important;
+  color: black !important;
+  background-color: #368888 !important;
+  outline: none !important;
+  border: 1px #368888 !important;
+  cursor: pointer !important;
+  border-radius: 0px !important;
+}
+
+.more_buttons:hover {
+  background-color: #9c2222 !important;
+  color: white !important;
+}
+
+.card_img_more {
+  width: 100% !important;
+  height: 235px !important;
+
+}
+
+.mediaQ {
+  font-size: 2rem;
+}
+
+.responsiveE {
+  font-size: 1.2rem;
+}
+
+.logouttbut {
+  margin-bottom: 173px !important;
+  margin-left: 70px !important;
+}
+
+.gglebtnlogin {
+  margin-top: 35px !important;
+  margin-left: 70px !important;
+}
+
+
+
+
+
+.textLOGout {
+  margin-left: 15px;
+  margin-top: -50px !important;
+  font-size: 20px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #368888;
+  border: 0px;
+}
+.textLOGout img {
+  height: 80px;
+  width: 35px;
+  padding-right: 3px;
+  padding-top: 10px;
+  padding-bottom: 39px;
+}
+
+.textLOGout h3 {
+  font-size: 15px !important;
+  margin-top: -38px !important;
+  color: white;
+}
+
+.textLOGout:hover img {
+  color: black;
+}
+
+.loginData {
+  margin-top: 150px;
+}
+
+/* ______________________________RESPONSIVE____________________________ */
+@media (max-width: 768px) {
+  .respon {
+    margin-top: 50px !important;
+  }
+}
